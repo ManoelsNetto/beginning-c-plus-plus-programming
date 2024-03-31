@@ -2,7 +2,15 @@
 <Session Name="C:\Users\Alstra\beginning-c-plus-plus-programming\03_variables_constants\03_variables_constants.workspace">
   <int Value="0" Name="m_selectedTab"/>
   <wxString Value="C:\Users\Alstra\beginning-c-plus-plus-programming\03_variables_constants\03_variables_constants.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="C:\Users\Alstra\beginning-c-plus-plus-programming\03_variables_constants\05_challenge\main.cpp" Name="FileName"/>
+      <int Value="63" Name="FirstVisibleLine"/>
+      <int Value="62" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>
