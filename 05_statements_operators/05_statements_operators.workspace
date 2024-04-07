@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="05_statements_operators" Database="" Version="10000">
+  <Project Name="01_assignment_operator" Path="05_statements_operators/05_statements_operators.project" Active="No"/>
+  <Project Name="02_arithmetic_operators" Path="02_arithmetic_operator/02_arithmetic_operator.project" Active="No"/>
+  <Project Name="10_exchange_conversion_project" Path="10_exchange_conversion_project/10_exchange_conversion_project.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="01_assignment_operator" ConfigName="Debug"/>
+      <Project Name="02_arithmetic_operators" ConfigName="Debug"/>
+      <Project Name="10_exchange_conversion_project" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="01_assignment_operator" ConfigName="Release"/>
+      <Project Name="02_arithmetic_operators" ConfigName="Release"/>
+      <Project Name="10_exchange_conversion_project" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
