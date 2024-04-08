@@ -11,7 +11,13 @@
                 "-std=c++17",
                 "${fileDirname}\\*.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-IC:\\Users\\Alstra\\beginning-c-plus-plus-programming\\packages\\curl\\include",
+                "-LC:\\Users\\Alstra\\beginning-c-plus-plus-programming\\packages\\curl\\lib",
+                "-lcurl",
+                "-mwindows",
+                "-lgdi32",
+                "-municode"
             ],
             "options": {
                 "cwd": "${fileDirname}"
