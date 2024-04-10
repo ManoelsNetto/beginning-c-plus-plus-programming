@@ -4,9 +4,9 @@
   <wxString Value="C:\Users\Alstra\beginning-c-plus-plus-programming\05_statements_operators\05_statements_operators.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\Alstra\beginning-c-plus-plus-programming\05_statements_operators\05_statements_operators\main.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\Alstra\beginning-c-plus-plus-programming\05_statements_operators\10_exchange_conversion_project\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="11" Name="CurrentLine"/>
+      <int Value="10" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
