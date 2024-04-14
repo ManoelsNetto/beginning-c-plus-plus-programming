@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4d531590-ba45-46e3-95e9-d587ffd970bb}</ProjectGuid>
-    <RootNamespace>My05mixedexpressions</RootNamespace>
+    <ProjectGuid>{a5635460-d477-4574-a362-a48136f409db}</ProjectGuid>
+    <RootNamespace>My07relationaloperators</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
