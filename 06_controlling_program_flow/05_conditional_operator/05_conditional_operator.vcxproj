@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d04f637e-6331-444e-b265-8dcbffef3f19}</ProjectGuid>
-    <RootNamespace>My09challenge</RootNamespace>
+    <ProjectGuid>{c439ca49-c7da-41a5-ae4c-a790a0e2c3ad}</ProjectGuid>
+    <RootNamespace>My05conditionaloperator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

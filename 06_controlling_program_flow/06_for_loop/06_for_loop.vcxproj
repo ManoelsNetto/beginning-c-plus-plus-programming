@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d04f637e-6331-444e-b265-8dcbffef3f19}</ProjectGuid>
-    <RootNamespace>My09challenge</RootNamespace>
+    <ProjectGuid>{4a55d5de-5a8f-4e55-9939-b6e11b567fbe}</ProjectGuid>
+    <RootNamespace>My06forloop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
