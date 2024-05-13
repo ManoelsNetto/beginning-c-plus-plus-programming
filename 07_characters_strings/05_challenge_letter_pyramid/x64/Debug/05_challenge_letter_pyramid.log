@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Alstra\beginning-c-plus-plus-programming\07_characters_strings\05_challenge_letter_pyramid\main.cpp(29,22): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+  05_challenge_letter_pyramid.vcxproj -> C:\Users\Alstra\beginning-c-plus-plus-programming\07_characters_strings\05_challenge_letter_pyramid\x64\Debug\05_challenge_letter_pyramid.exe
+  'pwsh.exe' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.
