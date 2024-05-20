@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Alstra\beginning-c-plus-plus-programming\08_functions\02_what_is_function_random\main.cpp(21,15): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  02_what_is_function_random.vcxproj -> C:\Users\Alstra\beginning-c-plus-plus-programming\08_functions\02_what_is_function_random\x64\Debug\02_what_is_function_random.exe
+  'pwsh.exe' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.

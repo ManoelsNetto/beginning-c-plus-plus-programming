@@ -1,0 +1,4 @@
+﻿  random.cpp
+C:\Users\Alstra\beginning-c-plus-plus-programming\08_functions\01_what_is_function\random.cpp(21,15): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+random.obj : error LNK2005: main já definida no math.obj
+C:\Users\Alstra\beginning-c-plus-plus-programming\08_functions\01_what_is_function\x64\Debug\01_what_is_function.exe : fatal error LNK1169: encontrados um ou mais símbolos múltiplos definidos
