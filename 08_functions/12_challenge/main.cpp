@@ -98,7 +98,13 @@ using namespace std;
 
 char menu();
 void print_numbers(const vector<int>& v, const size_t& size);
-
+void add_number(vector<int>& v);
+void numbers_mean(const vector<int>& v, const size_t size);
+void smallest_number(const vector<int>& v, const size_t size);
+void largest_number(const vector<int>& v, const size_t size);
+void quit();
+void find_number(const vector<int>& v);
+void clear_list(vector<int>& v);
 
 int main() {
 
@@ -116,133 +122,38 @@ int main() {
         }
         else if (selection == 'A') {
 
-            int number{};
-            cout << "Integer to add to the list: ";
-            cin >> number;
-            cout << endl;
-
-            list.push_back(number);
-            cout << number << " added" << endl;
+            add_number(list);
 
         }
         else if (selection == 'M') {
 
-            if (list.size() > 0) {
-
-                int sum{};
-
-                for (int elem : list) {
-
-                    sum += elem;
-
-                }
-
-                cout << "Mean: " << static_cast<double>(sum) / list.size() << endl;
-
-            }
-            else {
-
-                cout << "Unable to calculate the mean - no data" << endl;
-
-            }
+            numbers_mean(list, list.size());
 
         }
         else if (selection == 'S') {
 
-            if (list.size() > 0) {
-
-                int smallest{};
-
-                for (int i = { 0 }; i < list.size(); i++) {
-
-                    if (i == 0) {
-
-                        smallest = { list.at(i) };
-                        continue;
-                    }
-
-                    if (list[i] < smallest) {
-
-                        smallest = { list.at(i) };
-                        continue;
-
-                    }
-
-                }
-
-                cout << "The smallest number is " << smallest << endl;
-
-            }
-            else {
-
-                cout << "Unable to determine the smallest number - list is empty" << endl;
-
-            }
+            smallest_number(list, list.size());
 
         }
         else if (selection == 'L') {
 
-            if (list.size() > 0) {
-
-                int largest{};
-
-                for (int i = { 0 }; i < list.size(); i++) {
-
-                    if (i == 0) {
-
-                        largest = { list.at(i) };
-                        continue;
-                    }
-
-                    if (list[i] > largest) {
-
-                        largest = { list.at(i) };
-                        continue;
-
-                    }
-
-                }
-
-                cout << "The largest number is " << largest << endl;
-
-            }
-            else {
-
-                cout << "Unable to determine the largest number - list is empty" << endl;
-
-            }
+            largest_number(list, list.size());
 
         }
         else if (selection == 'Q') {
 
-            cout << "Goodbye!" << endl;
+            quit();
             break;
 
         }
         else if (selection == 'F') {
 
-            int number{}, times{};
-            cout << "Integer to search in the list: ";
-            cin >> number;
-            cout << endl;
-
-            for (int elem : list) {
-
-                if (elem == number) {
-
-                    times++;
-
-                }
-
-            }
-
-            cout << "Number of times " << number << " occurs in the list: " << times << endl;
+            find_number(list);
 
         }
         else if (selection == 'C') {
 
-            cout << "The list is empty again" << endl;
-            list.clear();
+            clear_list(list);
 
         }
         else {
@@ -288,5 +199,142 @@ void print_numbers(const vector<int>& v, const size_t& size) {
         cout << "[] - the list is empty" << endl;
 
     };
+
+};
+
+void add_number(vector<int>& v) {
+
+    int number{};
+    cout << "Integer to add to the list: ";
+    cin >> number;
+    cout << endl;
+
+    v.push_back(number);
+    cout << number << " added" << endl;
+
+};
+
+void numbers_mean(const vector<int>& v, const size_t size) {
+
+    if (size > 0) {
+
+        int sum{};
+
+        for (int elem : v) {
+
+            sum += elem;
+
+        }
+
+        cout << "Mean: " << static_cast<double>(sum) / size << endl;
+
+    }
+    else {
+
+        cout << "Unable to calculate the mean - no data" << endl;
+
+    }
+
+};
+
+void smallest_number(const vector<int>& v, const size_t size) {
+
+    if (size > 0) {
+
+        int smallest{};
+
+        for (int i = { 0 }; i < size; i++) {
+
+            if (i == 0) {
+
+                smallest = { v.at(i) };
+                continue;
+            }
+
+            if (v[i] < smallest) {
+
+                smallest = { v.at(i) };
+                continue;
+
+            }
+
+        }
+
+        cout << "The smallest number is " << smallest << endl;
+
+    }
+    else {
+
+        cout << "Unable to determine the smallest number - list is empty" << endl;
+
+    }
+
+};
+
+void largest_number(const vector<int>& v, const size_t size) {
+
+    if (size > 0) {
+
+        int largest{};
+
+        for (int i = { 0 }; i < size; i++) {
+
+            if (i == 0) {
+
+                largest = { v.at(i) };
+                continue;
+            }
+
+            if (v[i] > largest) {
+
+                largest = { v.at(i) };
+                continue;
+
+            }
+
+        }
+
+        cout << "The largest number is " << largest << endl;
+
+    }
+    else {
+
+        cout << "Unable to determine the largest number - list is empty" << endl;
+
+    }
+
+};
+
+void quit() {
+
+    cout << "Goodbye!" << endl;
+
+};
+
+void find_number(const vector<int>& v) {
+
+    int number{}, times{};
+    cout << "Integer to search in the list: ";
+    cin >> number;
+    cout << endl;
+
+    for (int elem : v) {
+
+        if (elem == number) {
+
+            times++;
+
+        }
+
+    }
+
+    cout << "Number of times " << number << " occurs in the list: " << times << endl;
+
+};
+
+void clear_list(vector<int>& v) {
+
+    cout << "The list is empty again." << endl;
+    v.clear();
 
 };
