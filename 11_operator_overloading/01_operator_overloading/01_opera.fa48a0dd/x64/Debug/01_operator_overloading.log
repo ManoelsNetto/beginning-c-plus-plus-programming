@@ -1,0 +1,5 @@
+﻿  Mystring.cpp
+C:\Users\Alstra\beginning-c-plus-plus-programming\11_operator_overloading\01_operator_overloading\Mystring.cpp(56,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  01_operator_overloading.vcxproj -> C:\Users\Alstra\beginning-c-plus-plus-programming\11_operator_overloading\01_operator_overloading\x64\Debug\01_operator_overloading.exe
+  'pwsh.exe' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.
