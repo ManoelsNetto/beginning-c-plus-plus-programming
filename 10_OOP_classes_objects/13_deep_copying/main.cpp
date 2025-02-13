@@ -35,7 +35,7 @@ Deep::Deep(int d) {
 
 Deep::Deep(const Deep& source) : Deep{*source.data} {
 
-	std::cout << "Copy constructor - shallow copy" << std::endl;
+	std::cout << "Copy constructor - deep copy" << std::endl;
 
 };
 

@@ -95,7 +95,7 @@ int main() {
     //    s1.erase(0,5);     // Erase This from s1 results in "is a test"
     //    cout << "s1 is now: " << s1<< endl;     // is a test
 
-    // getline
+    // Getline
     //     cout << "\ngetline" << "\n------------------------------------------" << endl;
     //
     //    string full_name {};
