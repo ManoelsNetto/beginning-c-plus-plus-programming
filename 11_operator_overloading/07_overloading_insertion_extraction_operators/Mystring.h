@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+
 class Mystring
 {
 
@@ -6,6 +8,10 @@ private:
 	char* str;
 
 public:
+
+	// Insertion and Extraction opeartor overload
+	friend std::ostream& operator<<(std::ostream& os, const Mystring& obj);
+	friend std::istream& operator>>(std::istream& is, Mystring& obj);
 
 	// No args constructor
 	Mystring();
@@ -30,7 +36,6 @@ public:
 
 	// Display
 	void display() const;
-
 
 	// Getters
 	int get_length() const;

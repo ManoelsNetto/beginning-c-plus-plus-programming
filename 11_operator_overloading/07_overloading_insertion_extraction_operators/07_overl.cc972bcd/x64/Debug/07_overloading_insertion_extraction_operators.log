@@ -1,0 +1,3 @@
+﻿  Mystring.cpp
+C:\Users\Alstra\beginning-c-plus-plus-programming\11_operator_overloading\07_overloading_insertion_extraction_operators\Mystring.cpp(103,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  07_overloading_insertion_extraction_operators.vcxproj -> C:\Users\Alstra\beginning-c-plus-plus-programming\11_operator_overloading\07_overloading_insertion_extraction_operators\x64\Debug\07_overloading_insertion_extraction_operators.exe

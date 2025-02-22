@@ -85,9 +85,9 @@ Mystring Mystring::operator=(Mystring&& lhs) noexcept {
 }
 
 // Display
-void display() const {
+void Mystring::display() const {
 
-	std::cout << get_str() << std::endl;
+	std::cout << this->get_str() << std::endl;
 
 };
 
@@ -95,5 +95,32 @@ void display() const {
 const char* Mystring::get_str() const {
 
 	return this->str;
+
+}
+
+int Mystring::get_length() const {
+
+	return std::strlen(this->str);
+
+}
+
+// Insertion operator
+std::ostream& operator<<(std::ostream& os, const Mystring& obj) {
+
+	os << obj.str;
+	return os;
+
+}
+
+// Extraction opeartor
+std::istream& operator>>(std::istream& is, Mystring& obj) {
+
+	char* buff = new char[1000];
+	is >> buff;
+	obj = Mystring{ buff };
+
+	delete[] buff;
+
+	return is;
 
 }
